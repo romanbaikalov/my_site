@@ -1,0 +1,221 @@
+body {
+    margin: 0 ;
+    padding: 0 ;
+    color: black
+}
+h2 {
+    font-size: 40px;
+    padding: 24px 24px;
+    color: darkred;
+    text-decoration: underline;
+    text-align: center;
+    font-style: normal;}
+
+.menu {
+    display: block;
+   z-index: 2;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgb(74, 142, 92);
+
+}
+
+.menu a {
+    font-size: 25px;
+
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+   
+    padding: 15px 50px;
+    font-weight: lighter;
+}
+
+.header {
+    
+    
+    margin-top: 58px;
+    background-repeat: no-repeat;
+    display: block;
+    text-align: left;
+    width: 100%;
+    color: black;
+    padding: 100px 0 100px 0px;
+    background-image: url(img/background.jpg);
+    background-position: center;
+background-attachment: fixed;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    position: relative;
+
+}
+.header div{
+    display: inline-block
+        
+}
+.header h1{
+    text-align: center;
+    
+    
+    
+}
+
+header h1 {
+    ##margin-bottom: auto;
+    ##text-align: left;
+    ##padding: 0px 0px;
+
+
+    font-style: italic;
+}
+
+
+.header p {
+    ##padding: 10px 10px 10px 10px;
+    color: #000;
+    text-align: end;
+    margin-right: 50px;
+    font-style: normal;
+    vertical-align: bottom;
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+}
+
+#facts {
+    font-size: 30px;
+    padding: 20px;
+    background-color: rgb(74, 142, 92);
+
+}
+
+#facts h2 {
+    
+    margin-top: 0px;
+    font-size: 30px;
+    padding: 24px 24px;
+    color: darkred;
+    text-decoration: underline;
+    text-align: center;
+    font-style: normal;
+}
+
+#facts ol {
+
+    ##padding-left: 0px;
+}
+
+#facts li {
+    text-align: left;
+    padding-left: 30px;
+    padding: 20px 0px
+}
+
+#facts #fat {
+    font-weight: 600;
+}
+
+#facts #slim {
+    font-style: italic;
+}
+
+#galery h2 {
+    font-size: 40px;
+    padding: 24px 24px;
+    color: darkred;
+    text-decoration: underline;
+    text-align: center;
+    font-style: normal;
+}
+section{
+  text-align: center;
+    margin: 0 auto;
+}
+
+#galery img {
+    
+    ##box-sizing: border-box;
+    display: inline-block;
+    
+    margin: 5px;
+}
+
+#foxy {
+    border: 10px solid orange
+}
+
+#grey {
+    border: 10px solid blue
+}
+
+#monochrome {
+    border: 10px solid green
+}
+
+#blue {
+    border: 10px solid yellow;
+}
+#mail-us div{
+    display: block;
+}
+#mail-us{
+    background-color: rgb(74, 142, 92);
+    text-align: center;
+}
+#mail-us 
+input,
+select,
+textarea{
+    
+    width: 300px;
+    padding: 15px;
+    margin-top: 10px;
+    border: 2px solid #1abc9c;
+    background-color: white;
+    color: #000;
+    outline: none;
+    border-radius: 8px;
+}
+
+input::placeholder{ 
+    color: #16a085;
+    font-family: Verdana;
+    font-size: 16px;
+    visibility: visible;
+}
+#mail-us fieldset{
+    border: 4px double green ;
+    border-radius: 10px;
+    width: 500px;
+    display: inline-block;
+}
+
+
+##form {
+    width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 8px;}
+
+label{
+    display: block;
+}
+
+button{
+    width: 300px;
+    margin-top: 10px;
+    padding: 14px 24px;
+    background-color: red;
+    border-radius: 10px;
+    outline: none;
+    border-width: 1px
+}
+button:hover{
+    color: red;
+    background-color: white
+}
